@@ -9,7 +9,7 @@
 namespace test;
 
 class Database {
-	static $_instance;
+	private static $_instance;
 	private $db;
 
 	private function __construct() {
