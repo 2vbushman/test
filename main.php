@@ -24,7 +24,7 @@ try {
 		//подготовка бд
 		$db->prepare();
 	}else if(trim($line) == "2"){
-		//рагрузка в бд
+		//загрузка в бд
 		$db->loadData();
 	} else {
 		echo "Unknown command!";
